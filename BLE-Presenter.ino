@@ -40,7 +40,8 @@ void button_up_click(Button2& btn)
     bleKeyboard.press(KEY_UP_ARROW);
     delay(100);
     bleKeyboard.releaseAll();
-    
+
+    batt_level();
   }
 }
 
@@ -55,6 +56,8 @@ void button_down_click(Button2& btn)
     bleKeyboard.press(KEY_DOWN_ARROW);
     delay(100);
     bleKeyboard.releaseAll();
+
+    batt_level();
   }
 }
 
@@ -69,6 +72,8 @@ void button_center_click(Button2& btn)
     bleKeyboard.press(KEY_RETURN);
     delay(100);
     bleKeyboard.releaseAll();
+
+    batt_level();
   }
 }
 
@@ -83,6 +88,8 @@ void button_left_click(Button2& btn)
     bleKeyboard.press(KEY_LEFT_ARROW);
     delay(100);
     bleKeyboard.releaseAll();
+
+    batt_level();
   }
 }
 
@@ -97,6 +104,8 @@ void button_right_click(Button2& btn)
     bleKeyboard.press(KEY_RIGHT_ARROW);
     delay(100);
     bleKeyboard.releaseAll();
+
+    batt_level();
   }
 }
 
